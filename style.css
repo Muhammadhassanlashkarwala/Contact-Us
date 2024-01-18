@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+background: black;
+color: grey;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 430px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    font-style: italic;
+    text-transform: uppercase;
+   text-decoration: line-through;
+}
+input{
+    background: black;
+    color: grey;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+label{
+    cursor: auto;
+}
+input:hover{
+    border-color: cornflowerblue;
+}
+
+/* Footer */
+button{
+    background: cornflowerblue;
+    color: grey;
+    width: 120px;
+    height: 40px;
+    border-radius: 5% black;
+    margin-left: 60px;
+    cursor: pointer;
+}
+button:hover{
+    background: white;
+    color: black;
+}
+.class-end{
+    background: white;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 5% black;
+    cursor: pointer;
+}
+.class-end:hover{
+    background: cornflowerblue;
+    color: grey;
+}
